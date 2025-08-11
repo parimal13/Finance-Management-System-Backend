@@ -1,0 +1,22 @@
+{
+  "name": "fms-backend",
+  "version": "1.0.0",
+  "description": "Backend for the Finance Management System",
+  "main": "source/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node source/index.js",
+    "dev": "nodemon source/index.js"
+  },
+  "keywords": ["backend", "express", "mongodb"],
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "mongodb": "^6.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
