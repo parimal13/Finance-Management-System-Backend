@@ -1,7 +1,10 @@
 import { MongoClient } from 'mongodb';
+import dotenv from 'dotenv';
 
-const uri = 'mongodb://localhost:27017/';
-const dbName = 'finance-report';
+dotenv.config();
+
+const uri = process.env.MONGODB_URI || "mongodb://localhost:27017/";
+const dbName = process.env.DB_NAME || 'finance-report';
 
 let db;
 

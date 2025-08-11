@@ -8,11 +8,16 @@
     "start": "node source/index.js",
     "dev": "nodemon source/index.js"
   },
-  "keywords": ["backend", "express", "mongodb"],
+  "keywords": [
+    "backend",
+    "express",
+    "mongodb"
+  ],
   "author": "Your Name",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
     "express": "^4.19.2",
     "mongodb": "^6.8.0"
   },
